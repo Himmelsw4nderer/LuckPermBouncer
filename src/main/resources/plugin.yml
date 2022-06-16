@@ -5,5 +5,14 @@ api-version: 1.19
 prefix: LuckPermBouncer
 load: STARTUP
 authors: [ Himmelswanderer ]
-description: A Spigot Plugin that allows Players with a specific Permission to kick one other to join a full server
+description: A Paper Plugin that allows Players with a specific Permission to kick one other to join a full server
 website: https://github.com/Himmelsw4nderer/LuckPermBouncer
+permissions:
+  luckpermbouncer.*:
+    description: All permissions of this plugin
+    default: op
+    children:
+      luckpermbouncer.preferred: true
+  luckpermbouncer.preferred:
+    description: Allows player to kick players on join
+    default: op
