@@ -4,7 +4,6 @@ import de.himmelswanderer.luckpermbouncer.listeners.PlayerJoinListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Level;
-import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
 public final class LuckPermBouncer extends JavaPlugin {
