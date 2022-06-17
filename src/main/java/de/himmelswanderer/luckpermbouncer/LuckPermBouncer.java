@@ -11,7 +11,7 @@ public final class LuckPermBouncer extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        //init logger
+        //create new Logger with prefix "LuckPermBouncer"
         Logger log = getLogger();
         //config startup
         getConfig().options().copyDefaults();
@@ -19,6 +19,6 @@ public final class LuckPermBouncer extends JavaPlugin {
         //register the PlayerJoinListener
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(this), this);
         //log that the plugin is enabled
-        log.log(new LogRecord(Level.INFO, "LuckPermBouncer is enabled"));
+        log.log(Level.INFO, "LuckPermBouncer is enabled");
     }
 }
