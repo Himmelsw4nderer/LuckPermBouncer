@@ -45,7 +45,7 @@ public class PlayerJoinListener implements Listener {
                         if (!onlinePlayer.hasPermission("luckpermbouncer.preferred")) {
                             //kick player with message You are kicked because the server is full and a privileged player joined
                             onlinePlayer.kick(Component.text("You are kicked because the server is full and a privileged player joined"));
-                            log.log(new LogRecord(Level.INFO, "kicked" + onlinePlayer.getName() + "with id: " + onlinePlayer.getUniqueId()));
+                            log.log(Level.INFO, "kicked" + onlinePlayer.getName() + "with id: " + onlinePlayer.getUniqueId());
                             break;
                         }
                     }
