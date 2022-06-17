@@ -2,6 +2,7 @@ name: LuckPermBouncer
 version: '${version}'
 main: de.himmelswanderer.luckpermbouncer.LuckPermBouncer
 api-version: 1.19
+prefix: LuckPermBouncer
 load: STARTUP
 authors: [ Himmelswanderer ]
 description: A Paper Plugin that allows Players with a specific Permission to kick one other to join a full server
