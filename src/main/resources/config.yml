@@ -1,0 +1,2 @@
+#if players without the luckpermbouncer.preferred Permission should be kicked out to make space
+kick-on-full: true
